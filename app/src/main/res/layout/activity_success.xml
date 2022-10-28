@@ -18,7 +18,7 @@
             android:layout_width="93dp"
             android:layout_height="124dp"
             android:layout_weight="1"
-            app:srcCompat="@android:drawable/checkbox_on_background" />
+            app:srcCompat="@drawable/ic_baseline_check_box_24" />
 
         <TextView
             android:id="@+id/textView14"
@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:layout_weight="1"
-            android:text="You have Successfully completed the process"
+            android:text="You have successfully completed the process"
+            android:textColor="#0C0C0C"
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -127,7 +128,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H.No.Apartment"
+            android:text="H.No/Apartment"
             android:textColor="#0B0A0A"
             android:textSize="16sp" />
 
@@ -148,7 +149,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Street Name"
+            android:text="Street "
             android:textColor="#0C0C0C"
             android:textSize="16sp" />
 
@@ -232,7 +233,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Date of Birth"
+            android:text="Date Of Birth"
             android:textColor="#0B0A0A"
             android:textSize="16sp" />
 
@@ -254,7 +255,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Place of Birth"
+            android:text="Place Of Birth"
             android:textColor="#090909"
             android:textSize="16sp" />
 
@@ -276,7 +277,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Current Company"
-            android:textColor="#0B0A0A" />
+            android:textColor="#090909"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/currentcompany_txt"
@@ -358,7 +360,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Account holder"
+            android:text="Account Holder"
             android:textAllCaps="false"
             android:textColor="#0B0A0A"
             android:textSize="16sp" />

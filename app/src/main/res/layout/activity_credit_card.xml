@@ -22,9 +22,10 @@
         android:id="@+id/textView44"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Card Number"
         android:textColor="#090909"
-        android:textSize="16sp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/ccnumber_txt"
@@ -39,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text="Card Holder"
         android:textColor="#F8050505"
-        android:textSize="16sp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/ccholder_txt"
@@ -60,7 +61,7 @@
             android:layout_weight="1"
             android:text="Expiry"
             android:textColor="#0C0C0C"
-            android:textSize="16sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView50"
@@ -69,7 +70,7 @@
             android:layout_weight="1"
             android:text="CVV"
             android:textColor="#090909"
-            android:textSize="16sp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -106,7 +107,9 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="50dp"
             android:layout_weight="1"
-            android:text="back" />
+            android:backgroundTint="#B1B0B0"
+            android:text="Back"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/ccnext_btn"
@@ -115,6 +118,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="15dp"
             android:layout_weight="1"
-            android:text="next" />
+            android:text="Next"
+            android:textAllCaps="false" />
     </LinearLayout>
 </LinearLayout>
